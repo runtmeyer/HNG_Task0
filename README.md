@@ -15,7 +15,19 @@ Ensure you have **Python 3.8+** installed, then install FastAPI and Uvicorn:
 pip install fastapi uvicorn
 ```
 
-### **2️⃣ Run the API Locally**
+### **2️⃣ Initialize `requirements.txt`**
+To create a `requirements.txt` file, run:
+```sh
+pip freeze > requirements.txt
+```
+This will save all installed dependencies.
+
+To install dependencies from `requirements.txt`, use:
+```sh
+pip install -r requirements.txt
+```
+
+### **3️⃣ Run the API Locally**
 Start the FastAPI application with:
 ```sh
 uvicorn main:app --reload
