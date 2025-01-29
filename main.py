@@ -8,7 +8,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    iso_timestamp = datetime.now(timezone.utc).isoformat(timespec='minutes')
+    iso_timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     data = {
         "email": "muobotone@gmail.com",
         "current_datetime": iso_timestamp,
