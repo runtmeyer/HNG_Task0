@@ -5,6 +5,8 @@ from fastapi.responses import JSONResponse
 app = FastAPI()
 iso_timestamp = datetime.now(timezone.utc).isoformat(timespec='minutes')
 
+port = 5000
+
 
 @app.get("/")
 def read_root():
