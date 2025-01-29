@@ -26,7 +26,7 @@ pip install -r requirements.txt
 ### **3️⃣ Run the API Locally**
 Start the FastAPI application with:
 ```sh
-uvicorn main:app --reload
+fastapi dev main.py
 ```
 
 - The API will be accessible at: **http://127.0.0.1:8000/**
