@@ -1,5 +1,4 @@
 # HNG_Task0
-# FastAPI ISO 8601 Timestamp API
 
 ## 📌 Project Description
 This is a simple **FastAPI** application that returns a JSON response containing:
@@ -10,10 +9,7 @@ This is a simple **FastAPI** application that returns a JSON response containing
 ## 🚀 Setup Instructions
 
 ### **1️⃣ Install Dependencies**
-Ensure you have **Python 3.8+** installed, then install FastAPI and Uvicorn:
-```sh
-pip install fastapi uvicorn
-```
+Ensure you have **Python 3.8+** installed
 
 ### **2️⃣ Initialize `requirements.txt`**
 To create a `requirements.txt` file, run:
