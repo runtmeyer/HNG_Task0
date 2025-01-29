@@ -17,15 +17,15 @@ def read_root():
     return JSONResponse(content=data)
 
 if __name__ == "__main__":
-    # Get port from environment variable or use 5000 as default
+    
     port = int(os.getenv("PORT", 5000))
     
     # Run the app with uvicorn
     uvicorn.run(
         app,
-        host="0.0.0.0",  # Bind to all available network interfaces
+        host="0.0.0.0",  
         port=port,
-        reload=True  # Enable auto-reload during development
+        reload=True 
     )
 
 
